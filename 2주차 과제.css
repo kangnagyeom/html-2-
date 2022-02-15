@@ -1,8 +1,55 @@
 body{
     background-color: #ffffff;
 }
-@media screen and (max-width:1000px) {
+
+.div{
+    display: flex;
+    flex-direction: row;
+    font-size: 5.5vw;
+    font-weight: 500;
+    justify-content: center;
+    margin-top: 5.5%; 
+}
+
+.search{
+    position: relative;
+    width: 30%;
+    left: 50%;
+    margin-top: 10px;
+    transform:translate(-50%, -50%)
+}
+input{
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:390px) {
     body{
         background-color: black;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        font-size: 10vw;
+        font-weight: 600;
+        justify-content: center;
+        margin-top: 50%;
+    }
+    .search{
+        position: absolute;
+        width: 40%;
+        left: 40%;
+        top: 50%;
+        transform:translate(-50%, -110%);
+    }
+    input{
+        width: 130%;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        padding: 10px 12px;
+        font-size: 12px;
     }
 }
