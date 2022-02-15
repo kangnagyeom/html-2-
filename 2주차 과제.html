@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2주차 과제.css">
+    <title>2주차 과제</title>
+    <style>
+        .text_red{
+            color: rgb(219, 68, 55);
+        }
+        .text_blue{
+            color: rgb(66, 133, 244);
+        }
+        .text_yellow{
+            color: rgb(244, 180, 0);
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            font-size: 5.5vw;
+            font-weight: 500;
+            justify-content: center;
+            margin-top: 5.5%; 
+        }
+
+        .search{
+            position: relative;
+            width: 30%;
+            left: 50%;
+            margin-top: 10px;
+            transform:translate(-50%, -50%)
+        }
+        input{
+            width: 100%;
+            border: 1px solid #000000;
+            border-radius: 20px;
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div">
+
+        <p class="text_blue" >C</p>
+        <p class="text_red">H</p>
+        <p class="text_yellow">A</p>
+        <p class="text_blue">N</p>
+        <p class="text_blue">Z</p>
+        <p class="text_red">Z</p>
+
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="  Google 검색어를 입력하세요.">
+    </div>
+    
+</body>
+</html>
